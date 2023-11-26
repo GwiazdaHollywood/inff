@@ -2,14 +2,14 @@
 using namespace std;
 
 int main() {
-	    // Zmiana count na 0 aby œledziæ liczby bez powtórzeñ
+	    // Zmiana count na 0 aby Å›ledziÄ‡ liczby bez powtÃ³rzeÅ„
     int count = 0;
 
-    // Pêtla dla pierwszej cyfry (setki)
+    // PÄ™tla dla pierwszej cyfry (setki)
     for (int i = 1; i <= 9; ++i) {
-    	        // Pêtla dla drugiej cyfry (dziesi¹tki)
+    	        // PÄ™tla dla drugiej cyfry (dziesiÄ…tki)
         for (int j = 0; j <= 9; ++j) {
-        	            // Pêtla dla trzeciej cyfry (jednoœci)
+        	            // PÄ™tla dla trzeciej cyfry (jednoÅ›ci)
             for (int k = 0; k <= 9; ++k) {
             	                // Sprawdzamy czy cyfry sie roznia od siebie
                 if (i != j && j != k && i != k) {
